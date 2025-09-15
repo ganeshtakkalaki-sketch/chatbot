@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dai-ichi Buddy Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chatbot-container">
+        <div class="chatbot-header">
+            <span class="chatbot-name">Dai-ichi Buddy</span>
+            <div class="header-icons">
+                <i class="fas fa-bell"></i> <i class="fas fa-bars"></i> </div>
+        </div>
+        <div class="chatbot-messages" id="chatbotMessages">
+            <div class="message bot-message">
+                Hello! I'm Dai-ichi Buddy. How may I assist you today?
+            </div>
+            <div class="message bot-message button-options">
+                <button class="option-button" data-action="explore-plans">Explore Plans</button>
+                <button class="option-button" data-action="pay-premium">Pay Premium</button>
+                <button class="option-button" data-action="file-claim">File Claim</button>
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="userInput" placeholder="Start typing here...">
+            <button id="sendButton"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit-code.js" crossorigin="anonymous"></script>
+</body>
+</html>
